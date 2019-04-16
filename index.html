@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta data  -->
+    <title>Kumar Suman | Personal Website of Kumar Suman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="img/ks.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/ks.png" sizes="16x16">
+
+    <!-- Bootstrap and Font-awesome File  -->
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="dist/js/jquery.min.js"></script>
+    <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="dist/css/all.css">
+
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="style.css">
+    <style media="screen">
+      .active{
+        display: block;
+      }
+      .hide{
+        display: none;
+      }
+
+      .progress{
+        height: 30px;
+        position: relative;
+        width: 100%;
+      }
+      .progress-title{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 20%;
+        position: absolute;
+        background-color: #e1e1e1;
+        color: #fff;
+        text-align: center;
+        height: inherit;
+        font-weight: bold;
+      }
+      .progress-value{
+        position: relative;
+        height: inherit;
+        float: right;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        font-size: 15px;
+        z-index: 10000;
+        font-weight: bold;
+      }
+      .angular-color{
+        background-color: #F5081A;
+      }
+      .jquery-color{
+        background-color: #ff9a00;
+      }
+      .javascript-color{
+        background-color: #f4db78;
+      }
+      .wordpress-color{
+        background-color: #c96077
+      }
+      .bootstrap-color{
+        background-color: #c96077
+      }
+      .css-color{
+        background-color: #083c55
+      }
+      .html-color{
+        background-color: #c96077
+      }
+      .angular{
+        background-color: #FB7895
+      }
+      .jquery{
+        background-color: #fcbd34
+      }
+      .javascript{
+        background-color: #f2e3ba
+      }
+      .wordpress{
+        background-color: #ec55ec
+      }
+      .bootstrap{
+        background-color: #ec55ec
+      }
+      .css{
+        background-color: #0c5274
+      }
+      .html{
+        background-color: #0c5274
+      }
+
+    </style>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".angular").animate({width: '80%'}, 1000);
+        $(".jquery").animate({width: '80%'}, 1000);
+        $(".javascript").animate({width: '80%'}, 1000);
+        $(".wordpress").animate({width: '80%'}, 1000);
+        $(".bootstrap").animate({width: '80%'}, 1000);
+        $(".css").animate({width: '80%'}, 1000);
+        $(".html").animate({width: '90%'}, 1000);
+      });
+    </script>
+  </head>
+  <body>
+   <div class="page">
+     <aside id="sidebar" class="sidebar">
+        <img src="img/suman.jpg" class="mobile-avatar" alt="Kumar Suman">
+        <div class="avatar"></div>
+        <div class="welcome">
+           <h1 class="welcome-msg">I'm <span class="userName">Kumar Suman</span> <span class="welcome-label">Front-end Developer From <span class="india">INDIA</span></span></h1>
+        </div>
+     </aside>
+     <div class="container">
+       <header class="header">
+         <ul class="nav nav-tabs nav-justified">
+           <li id="tab-about" class="active"><a>
+             <i class="fas fa-user menu-icon"></i>
+             <span class="menu-text">About me</span>
+           </a></li>
+           <li id="tab-resume"><a>
+             <i class="fas fa-briefcase menu-icon"></i>
+             <span class="menu-text">Resume</span>
+           </a></li>
+           <li id="tab-skills"><a>
+             <i class="fas fa-file menu-icon"></i>
+             <span class="menu-text">Skills</span>
+           </a></li>
+           <li id="tab-works"><a>
+             <i class="fas fa-user menu-icon"></i>
+             <span class="menu-text">Works</span>
+           </a></li>
+           <li id="tab-contact"><a>
+             <i class="fas fa-envelope menu-icon"></i>
+             <span class="menu-text">Contact</span>
+           </a></li>
+         </ul>
+       </header>
+       <div class="content">
+         <div class="tabs-infoblocks">
+           <section id="tab-about-content" class="tabs-infoblock active">
+             <div class="tabs-infoblock__inner">
+               <h2 class="title main-title">
+                 <span class="main-title__label">About me</span>
+               </h2>
+               <div class="content__section">
+                 <h3 class="title title_middle">
+                   <i class="far fa-bookmark"></i>
+                   <span class="title__label">Front-end Developer</span>
+                 </h3>
+                 <blockquote class="blockquote">
+                   <i class="fas fa-quote-left"></i>
+                    I try and experiment with new things whenever I can due to my dynamic nature.The process of developing something from nothing but code amazes me and little things such as product previews and bug fixes makes me happy.<br><br>
+                    If you want someone to help you out with your supercool idea and bring it to life, or you just wanna hangout sometime, just drop in a message.
+                    <i class="fa fa-quote-right"></i><br><br>
+                    <blockquote cite="http://" style="text-align: right; border-left:none; border-right: 4px solid #ffdf08; font-family:cursive;" >
+                      <q cite="">Success does not lower its standard, We have <br> to rise your standard to get success.</q>
+                    </blockquote>
+                 </blockquote>
+               </div>
+               <div class="content__section">
+                 <h3 class="title title_middle">
+                   <i class="far fa-file-alt"></i>
+                   <span class="title__label">Personal Info</span>
+                 </h3>
+                 <div class="iconboxs">
+                   <div class="iconbox">
+                     <div class="iconbox__info">
+                       <span class="iconbox__label iconbox__name"><i class="fa fa-globe" style="color:green;"></i> Language</span>
+                       <span class="iconbox__label">&nbsp;English & Hindi</span>
+                     </div>
+                   </div>
+                   <div class="iconbox">
+                     <div class="iconbox__info">
+                       <span class="iconbox__label iconbox__name"><i class="fa fa-calendar" style="color:#1A679D;"></i> Date of birth</span>
+                       <span class="iconbox__label">&nbsp;21 April 1995</span>
+                     </div>
+                   </div>
+                   <div class="iconbox">
+                     <div class="iconbox__info">
+                       <span class="iconbox__label iconbox__name"><i class="fa fa-home" style="color:#1A679D;"></i> Hometown</span>
+                       <span class="iconbox__label">&nbsp;Motihari, BIHAR</span>
+                     </div>
+                   </div>
+                   <div class="iconbox">
+                     <div class="iconbox__info">
+                       <span class="iconbox__label iconbox__name"><i class="fa fa-heart" style="color:red;"></i> Relationship</span>
+                       <span class="iconbox__label">&nbsp;Un-Married</span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="content__section">
+                  <h3 class="title title_middle">
+                    <i class="fas fa-trophy"></i>
+                    <span class="title__label">My Stats</span>
+                  </h3>
+                  <div class="iconboxs">
+                     <div class="iconbox">
+                        <div class="iconbox__info">
+                          <span class="iconbox__label iconbox__name"><i class="fa fa-thumbs-up" style="color: #FFC83D;"></i> 20+</span> <span class="iconbox__label">projects done</span>
+                        </div>
+                     </div>
+                     <div class="iconbox">
+                        <div class="iconbox__info"><span class="iconbox__label iconbox__name"><i class="fa fa-smile-o" style="color: #FFC83D;"></i> 100+</span> <span class="iconbox__label">happy clients</span></div>
+                     </div>
+                     <div class="iconbox">
+                        <div class="iconbox__info"><span class="iconbox__label iconbox__name"><i class="fa fa-coffee" style="color: #6F4E37;"></i> 40+</span> <span class="iconbox__label">cups of coffee</span></div>
+                     </div>
+                     <div class="iconbox">
+                        <div class="iconbox__info"><span class="iconbox__label iconbox__name"><i class="fa fa-code"></i> 1 000 000</span> <span class="iconbox__label">lines of coding</span></div>
+                     </div>
+                  </div>
+               </div>
+             </div>
+           </section>
+           <section id="tab-resume-content" class="tabs-infoblock hide">
+             <div class="tabs-infoblock__inner">
+               <h2 class="title main-title">
+                 <span class="main-title__label">Resume</span>
+               </h2>
+               <div class="content__section">
+                 <blockquote class="blockquote">
+                   <i class="fa fa-quote-left"></i>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni voluptatem at minima deserunt ipsa similique voluptatum quia, quibusdam tempora praesentium.<br><br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, ad, beatae. Minima deleniti excepturi soluta consequatur ipsum placeat odio, eaque rem sunt, repellendus minus nihil cumque aut id laboriosam quibusdam.
+                    <i class="fa fa-quote-right"></i>
+                 </blockquote>
+                 <div class="row">
+                   <div class="col-xs-12 col-sm-6">
+                     <a href="#" class="link-flat download-resume">
+                       <span class="resume">
+                         <i class="fa fa-cloud-download-alt"></i>
+                         <span class="download-resume__label">Download resume</span>
+                       </span>
+                     </a>
+                   </div>
+                   <div class="col-xs-12 col-sm-6">
+                     <a href="#" class="link-flat download-resume">
+                       <span class="resume">
+                         <i class="fa fa-eye"></i>
+                         <span class="download-resume__label">View resume</span>
+                       </span>
+                     </a>
+                   </div>
+                 </div>
+               </div>
+               <div class="content__section">
+                  <h3 class="title title_middle">
+                    <i class="fa fa-suitcase"></i>
+                    <span class="title__label">Work experience</span>
+                  </h3>
+                  <div class="timeline">
+                     <article class="timeline__box">
+                        <h4 class="title title_small">Trainee</h4>
+                        <span class="timeline__caption">2011-2013 present Web-studio "Name Studio"</span>
+                        <div class="timeline__content">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ut harum ab cum vitae quam ipsam consequuntur necessitatibus ad corporis!</p>
+                        </div>
+                     </article>
+                  </div>
+               </div>
+               <div class="content__section">
+                  <h3 class="title title_middle"><i class="fa fa-graduation-cap"></i> <span class="title__label">Education</span></h3>
+                  <div class="timeline">
+                     <article class="timeline__box">
+                        <h4 class="title title_small">Jaipur Engineering College & Research Center</h4>
+                        <span class="timeline__caption">2014-2018</span>
+                        <div class="timeline__content">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ut harum ab cum vitae quam ipsam consequuntur necessitatibus ad corporis!</p>
+                        </div>
+                     </article>
+                     <article class="timeline__box">
+                        <h4 class="title title_small">Mahadev Sah Higher Secondary School</h4>
+                        <span class="timeline__caption">2011-2013</span>
+                        <div class="timeline__content">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ut harum ab cum vitae quam ipsam consequuntur necessitatibus ad corporis!</p>
+                        </div>
+                     </article>
+                     <article class="timeline__box">
+                        <h4 class="title title_small">Mahadev Sah High School</h4>
+                        <span class="timeline__caption">2009-2011</span>
+                        <div class="timeline__content">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ut harum ab cum vitae quam ipsam consequuntur necessitatibus ad corporis!</p>
+                        </div>
+                     </article>
+                  </div>
+               </div>
+
+             </div>
+           </section>
+           <section id="tab-skills-content" class="tabs-infoblock hide">
+             <div class="tabs-infoblock__inner">
+               <h2 class="title main-title"><span class="main-title__label">My Skill</span></h2>
+               <div class="content__section">
+                 <blockquote class="blockquote">
+                   <i class="fa fa-quote-left"></i>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni voluptatem at minima deserunt ipsa similique voluptatum quia, quibusdam tempora praesentium.<br><br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, ad, beatae. Minima deleniti excepturi soluta consequatur ipsum placeat odio, eaque rem sunt, repellendus minus nihil cumque aut id laboriosam quibusdam.
+                    <i class="fa fa-quote-right"></i>
+                 </blockquote>
+               </div>
+               <div class="content__section">
+                 <h3 class="title title_middle">
+                   <i class="fa fa-suitcase"></i>
+                   <span class="title__label">Technical Skills</span>
+                 </h3>
+                 <div class="progress">
+                   <div class="progress-title angular-color">Angular JS</div>
+                   <div class="progress-bar progress-bar-striped angular"></div>
+                   <div class="progress-value">80%</div>
+                 </div>
+                 <div class="progress">
+                   <div class="progress-title jquery-color">jQuery</div>
+                   <div class="progress-bar progress-bar-striped jquery"></div>
+                   <div class="progress-value">80%</div>
+                 </div>
+                 <div class="progress">
+                   <div class="progress-title javascript-color">JavaScript</div>
+                   <div class="progress-bar progress-bar-striped javascript"></div>
+                   <div class="progress-value">80%</div>
+                 </div>
+                 <div class="progress">
+                   <div class="progress-title wordpress-color">Wordpress</div>
+                   <div class="progress-bar progress-bar-striped wordpress"></div>
+                   <div class="progress-value">80%</div>
+                 </div>
+                 <div class="progress">
+                   <div class="progress-title bootstrap-color">Bootstrap</div>
+                   <div class="progress-bar progress-bar-striped bootstrap"></div>
+                   <div class="progress-value">80%</div>
+                 </div>
+                 <div class="progress">
+                   <div class="progress-title css-color">CSS</div>
+                   <div class="progress-bar progress-bar-striped css"></div>
+                   <div class="progress-value">80%</div>
+                 </div>
+                 <div class="progress">
+                   <div class="progress-title html-color">HTML</div>
+                   <div class="progress-bar progress-bar-striped html"></div>
+                   <div class="progress-value">90%</div>
+                 </div>
+               </div>
+               <div class="content__section">
+                 <h3 class="title title_middle">
+                   <i class="fa fa-suitcase"></i>
+                   <span class="title__label">Professional Skills</span>
+                 </h3>
+                 <div class="progress">
+                   <div class="progress-title communication-color">Communication</div>
+                   <div class="progress-bar progress-bar-striped communication"></div>
+                   <div class="progress-value">80%</div>
+                 </div>
+                 <div class="progress">
+                   <div class="progress-title confidence-color">Confidence</div>
+                   <div class="progress-bar progress-bar-striped confidence"></div>
+                   <div class="progress-value">80%</div>
+                 </div>
+               </div>
+             </div>
+           </section>
+           <section id="tab-works-content" class="tabs-infoblock hide">
+             <div class="tabs-infoblock__inner">
+               <h2 class="title main-title"><span class="main-title__label">My Work</span></h2>
+               <div class="content__section">
+                 <blockquote class="blockquote">
+                    <i class="fa fa-quote-left"></i>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, sit ipsam at et id quisquam magni mollitia fugit esse voluptatibus velit earum labore hic laboriosam quidem culpa obcaecati repudiandae delectus eligendi cum tempora amet impedit corporis! Iusto, enim, autem, omnis reiciendis porro amet alias non temporibus pariatur nobis adipisci saepe!
+                    <i class="fa fa-quote-right"></i>
+                 </blockquote>
+               </div>
+               <div class="content__section">
+                  <h3 class="title title_middle">
+                    <i class="fa fa-globe"></i>
+                    <span class="title__label">Web Sites</span>
+                  </h3>
+                  <div class="row card-section">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" >
+                      <div class="card text-center">
+                        <div class="card-header">
+                          <a href="#"><img src="img/phone.jpg" alt=""></a>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Special title treatment</h5>
+                          <p class="card-desc">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-info">Live Demo</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" >
+                      <div class="card text-center">
+                        <div class="card-header">
+                          <a href="#"><img src="img/phone2.jpg" alt=""></a>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Special title treatment</h5>
+                          <p class="card-desc">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-info">Live Demo</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" >
+                      <div class="card text-center">
+                        <div class="card-header">
+                          <a href="#"><img src="img/phone3.jpg" alt=""></a>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Special title treatment</h5>
+                          <p class="card-desc">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-info">Live Demo</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+               </div>
+             </div>
+           </section>
+           <section id="tab-contact-content" class="tabs-infoblock hide">
+             <div class="tabs-infoblock__inner">
+               <h2 class="title main-title"><span class="main-title__label">Contact</span></h2>
+               <div class="content__section">
+                 <blockquote class="blockquote">
+                   <i class="fa fa-quote-left"></i>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni voluptatem at minima deserunt ipsa similique voluptatum quia, quibusdam tempora praesentium.<br><br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, ad, beatae. Minima deleniti excepturi soluta consequatur ipsum placeat odio, eaque rem sunt, repellendus minus nihil cumque aut id laboriosam quibusdam.
+                    <i class="fa fa-quote-right"></i>
+                 </blockquote>
+               </div>
+               <div class="content__section">
+                 <div class="iconboxs">
+                    <div class="iconbox">
+                       <div class="iconbox__info">
+                          <span class="iconbox__label iconbox__name"><i class="far fa-envelope"></i> E-mail</span>
+                          <span class="iconbox__label">suman845415@</span>
+                        </div>
+                    </div>
+                    <div class="iconbox">
+                       <div class="iconbox__info">
+                         <span class="iconbox__label iconbox__name"><i class="fab fa-whatsapp"></i> WhatsApp</span>
+                         <span class="iconbox__label">+91 7073640154</span>
+                       </div>
+                    </div>
+                    <div class="iconbox">
+                       <div class="iconbox__info">
+                         <span class="iconbox__label iconbox__name"><i class="fas fa-mobile-alt"></i> Mobile</span>
+                         <span class="iconbox__label">+91 8209900773</span>
+                       </div>
+                    </div>
+                    <div class="iconbox">
+                       <div class="iconbox__info">
+                         <span class="iconbox__label iconbox__name"><i class="fab fa-skype"></i> Skype</span>
+                         <span class="iconbox__label">username</span>
+                       </div>
+                    </div>
+                 </div>
+               </div>
+               <div class="content__section">
+                 <h3 class="title title_middle">
+                   <i class="fa fa-address-book"></i>
+                   <span class="title__label">Contact form</span>
+                 </h3>
+                 <form class="form">
+                    <div class="form-inner">
+                       <div class="form__group form__column">
+                         <input type="text" class="form__element field" name="username" placeholder="Your name" pattern="^\S[а-яА-ЯёЁa-zA-Z\s]+\S" required>
+                         <i class="icon form__icon icon-user"></i>
+                         <span class="form__decor-line"></span>
+                       </div>
+                       <div class="form__group form__column">
+                         <input type="email" class="form__element field" name="usermail" placeholder="Your email" required>
+                         <i class="icon form__icon icon-envelope"></i>
+                         <span class="form__decor-line"></span>
+                       </div>
+                    </div>
+                    <div class="form__group">
+                      <textarea class="form__element field textarea" name="msg" placeholder="Say Sometings..." required></textarea>
+                      <i class="icon form__icon icon-bubbles"></i>
+                      <span class="form__decor-line"></span>
+                    </div>
+                    <div class="form__button-box"><button class="button">Send</button></div>
+                 </form>
+                 <div class="social contacts-social">
+                   <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-github"></i></a></li>
+                  </ul>
+                 </div>
+               </div>
+             </div>
+           </section>
+         </div>
+         <footer class="footer">
+           <span>Made &amp; handcoded by Kumar Suman | Copyright &copy;
+             2018 - <span class="year"></span>
+           </span>
+         </footer>
+       </div>
+     </div>
+   </div>
+
+   <!--Custom javascript file -->
+   <script type="text/javascript" src="script.js"></script>
+   <script type="text/javascript">
+    $(document).ready(function() {
+
+    });
+   </script>
+  </body>
+</html>
