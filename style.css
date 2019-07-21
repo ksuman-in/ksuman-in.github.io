@@ -733,6 +733,11 @@ text-align: left;
 	margin-top: 8rem
 }
 
+.current-address{
+  margin: 0;
+  background-color: transparent;
+}
+
 /* ------------------------Contact End--------------------------------------- */
 
 /* -------------------------------- media Query CSS ---------------------------------*/
