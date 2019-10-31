@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
-Sitemap: https://ksuman.in/dist/images/sumanResume.pdf
+Allow: /
+Allow: /sitemap.htm
+Sitemap: http://ksuman.in/sitemap.xml
